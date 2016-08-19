@@ -13,6 +13,7 @@
 	<modules>
 		<module>eureka-discovery-microservice</module>
 		<module>sidecar-api-gateway-microservice</module>
+		<module>config-microservice</module>
 		<module>hystrix-dashboard</module>
 	</modules>
 
