@@ -12,6 +12,8 @@
 
 	<modules>
 		<module>eureka-discovery-microservice</module>
+		<module>sidecar-api-gateway-microservice</module>
+		<module>hystrix-dashboard</module>
 	</modules>
 
 	<parent>
