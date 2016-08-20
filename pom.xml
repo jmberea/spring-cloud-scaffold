@@ -11,10 +11,12 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>eureka-discovery-microservice</module>
-		<module>sidecar-api-gateway-microservice</module>
-		<module>config-microservice</module>
-		<module>hystrix-dashboard</module>
+		<module>microservice-discovery-eureka</module>
+		<module>microservice-api-gateway-sidecar</module>
+		<module>microservice-config</module>
+		<module>microservice-movie</module>
+		<module>microservice-user</module>
+		<module>microservice-hystrix-dashboard</module>
 	</modules>
 
 	<parent>
