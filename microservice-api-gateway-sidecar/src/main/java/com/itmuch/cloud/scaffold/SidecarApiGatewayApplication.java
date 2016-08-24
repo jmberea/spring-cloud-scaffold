@@ -6,10 +6,12 @@ import org.springframework.cloud.netflix.sidecar.EnableSidecar;
 
 /**
  * 使用sidecar作为api gateway，当然也可以使用zuul
- * 可使用：http://HOST:PORT/其他服务名称/其他服务path访问测试。
+ * 可使用：http://HOST:PORT/其他服务的spring.application.name/其他服务暴露的路径
  * 本例：
  * http://localhost:10000/movie/user/user/1
  * http://localhost:10000/user/user/1
+ * 注意：如果其他服务的spring.application.name，含有大写字母，会自动转为小写
+ * 例如：假设配置的是userA,那路径则是usera
  * @author eacdy
  */
 @SpringBootApplication

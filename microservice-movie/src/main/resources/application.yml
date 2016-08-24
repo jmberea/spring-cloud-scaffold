@@ -1,6 +1,8 @@
 server:
   port: 8002
-
+logging:
+  level:
+    root: INFO
 eureka:
   client:
     serviceUrl:
